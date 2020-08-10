@@ -8,9 +8,13 @@ Commands for git utility
 5. git show commit_id (show ra thong tin 1 commit khi dua vao argument la id cua commit do)
 6. git diff (show ra nhung gi thay doi o working directory cua cac file tung duoc them vao git repository)
 7. git configure --global user.name "user_name" && git configure --global user.email "user_email" (chi configure mot lan voi global)
-8. git rm --cached file_name (xoa di file sau khi add vao staging area, dua no tro lai working directory hay untrack no) tuong tu ta co lenh git restore --staged or git reset ten_file
-nhu vay co 3 lenh de untrack files
+8. git rm --cached file_name (xoa di file o staging area), ta co lenh git restore --staged <file> (untrack file o staging area, dua no ve working directory) or git reset ten_file
+nhu vay co 3 lenh de untrack files 
 9. git restore file_name (sau khi modify xong ma chua add vao staging area, file van o working directory, muon dua no ve trang thai truoc khi sua thi ta dung lenh git restore ten_file)
 tuong tu ta co lenh git checkout --file_name
 co 2 lenh de dua file ve trang thai ban dau 
-
+10. git branch in ra branch hien tai dang tro toi commit gan nhat, mac dinh la branch master 
+git branch branch-name de tao ra branch moi neu branch-name do chua exist
+11. git checkout -b branch-name cung de tao ra branch moi 
+git checkout branch-name de chuyen sang branch co ten la branch-name
+12. git merge other-branch-name de merge thay doi tu other-branch ve current branch
