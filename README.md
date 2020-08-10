@@ -28,3 +28,5 @@ git add .
 git commit -m "message"
 git push -u origin master (voi lan push dau tien)
 git push voi cac lan push tiep theo
+15. git credential voi ssh-key de do mat cong nhap mat khau nhieu lan
+
