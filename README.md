@@ -14,7 +14,11 @@ nhu vay co 3 lenh de untrack files
 tuong tu ta co lenh git checkout --file_name
 co 2 lenh de dua file ve trang thai ban dau 
 10. git branch in ra branch hien tai dang tro toi commit gan nhat, mac dinh la branch master 
-git branch branch-name de tao ra branch moi neu branch-name do chua exist
+git branch <branch-name> de tao ra branch moi neu branch-name do chua exist
+git branch -D <branch-name> de xoa di 1 branch khi dang o branch khac
 11. git checkout -b branch-name cung de tao ra branch moi 
 git checkout branch-name de chuyen sang branch co ten la branch-name
 12. git merge other-branch-name de merge thay doi tu other-branch ve current branch
+13. git reset --soft <commit-id> de tro HEAD ve commit-id do, sau do thay doi lai commit(thuong cho commit-id cua commit truoc commit ma ta muon thay doi), che do soft la dua no ve dang
+chua commit, che do mixed dua no ve working directory, che do hard xoa luon commit do 
+
