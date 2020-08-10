@@ -21,4 +21,10 @@ git checkout branch-name de chuyen sang branch co ten la branch-name
 12. git merge other-branch-name de merge thay doi tu other-branch ve current branch
 13. git reset --soft <commit-id> de tro HEAD ve commit-id do, sau do thay doi lai commit(thuong cho commit-id cua commit truoc commit ma ta muon thay doi), che do soft la dua no ve dang
 chua commit, che do mixed dua no ve working directory, che do hard xoa luon commit do 
-
+14. github la dich vu luu tru file truc tuyen, hoat dong voi su tro giup cua git, ta co the tao cac remote repository thuoc ve origin, sau do remote add origin nay ve local repository
+de co the dong bo hoa local vs remote repository
+git remote add origin <duong link repository.git> 
+git add . 
+git commit -m "message"
+git push -u origin master (voi lan push dau tien)
+git push voi cac lan push tiep theo
