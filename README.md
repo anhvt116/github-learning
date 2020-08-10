@@ -1,1 +1,1 @@
-File manual.cc contains instructions of manipulating git with github
+File manual.txt contains instructions of manipulating git with github
